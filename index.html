@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,62 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <title>Document</title>
 </head>
+
 <body>
   <header class="pg-header">
     <h1>Free Code Camp</h1>
     <h2>TwitchTV Finder</h2>
   </header>
-  <section class="pg-content"></section>
+  <section class="pg-content">
+    <div class="search-container">
+      <input type="text" class="search-input">
+      <select class="search-select">
+        <option value="streams" selected>Streams</option>
+        <option value="channels">Channels</option>
+        <option value="users">Users</option>
+      </select>
+      <button class="search-submit">Submit</button>
+    </div>
+    <div class="search-result">
+      <div class="result-filter">
+        <label for="all-tab">All</label>
+        <label for="online-tab">Online</label>
+        <label for="offline-tab">Offline</label>
+      </div>
+      <div class="result result-all">
+        <input type="radio" name="tab" id="all-tab">
+        <div>
+          <div class="result-item">1</div>
+          <div class="result-item">2</div>
+          <div class="result-item">3</div>
+          <div class="result-item">4</div>
+          <div class="result-item">5</div>
+        </div>
+      </div>
+      <div class="result result-online">
+        <input type="radio" name="tab" id="online-tab">
+        <div>
+          <div class="result-item">1</div>
+          <div class="result-item">2</div>
+          <div class="result-item">3</div>
+          <div class="result-item">4</div>
+          <div class="result-item">5</div>
+        </div>
+      </div>
+      <div class="result result-offline">
+        <input type="radio" name="tab" id="offline-tab">
+        <div>
+          <div class="result-item">1</div>
+          <div class="result-item">2</div>
+          <div class="result-item">3</div>
+          <div class="result-item">4</div>
+          <div class="result-item">5</div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="./js/lib/jquery-3.3.1.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,4 @@
+// ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]
 // base https://wind-bow.gomix.me/twitch-api
 // /users/:user, /channels/:channel, and /streams/:stream
 // var timer = null

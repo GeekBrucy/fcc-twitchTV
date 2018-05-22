@@ -1,2 +1,4 @@
 lib/
 img/
+mock/
+.DS_Store
