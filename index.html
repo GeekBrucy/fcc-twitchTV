@@ -17,48 +17,88 @@
   </header>
   <section class="pg-content">
     <div class="search-container">
-      <input type="text" class="search-input">
-      <select class="search-select">
-        <option value="streams" selected>Streams</option>
-        <option value="channels">Channels</option>
-        <option value="users">Users</option>
-      </select>
+      <div class="search-input">
+        <input type="text" class="search-input-text" placeholder="Enter Keywords..."><select class="search-input-select">
+          <option value="streams" selected>Streams</option>
+          <option value="channels">Channels</option>
+          <option value="users">Users</option>
+        </select>
+      </div>
       <button class="search-submit">Submit</button>
     </div>
     <div class="search-result">
       <div class="result-filter">
-        <label for="all-tab">All</label>
+        <label for="all-tab" class="active">All</label>
         <label for="online-tab">Online</label>
         <label for="offline-tab">Offline</label>
       </div>
       <div class="result result-all">
-        <input type="radio" name="tab" id="all-tab">
+        <input type="radio" name="tab" id="all-tab" checked>
         <div>
-          <div class="result-item">1</div>
-          <div class="result-item">2</div>
-          <div class="result-item">3</div>
-          <div class="result-item">4</div>
-          <div class="result-item">5</div>
+          <div class="result-item">
+            <div class="item-title">
+              <img class="item-logo" src="https://static-cdn.jtvnw.net/user-default-pictures/b83b1794-7df9-4878-916c-88c2ad2e4f9f-profile_image-300x300.jpg">
+              <div class="item-name">chiveyx</div>
+            </div>
+            <div class="item-info">
+              <div class="item-status online">
+                <span>online</span>
+              </div>
+              <div class="item-desc">Snatching bounties and hanging in DA HUB </div>
+              <div class="item-views">62 Viewing</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="result-item">
+            <div class="item-title">
+              <img class="item-logo" src="https://static-cdn.jtvnw.net/user-default-pictures/b83b1794-7df9-4878-916c-88c2ad2e4f9f-profile_image-300x300.jpg">
+              <div class="item-name">chiveyx</div>
+            </div>
+            <div class="item-info">
+              <div class="item-status offline">
+                <span>offline</span>
+              </div>
+              <div class="item-desc">Snatching bounties and hanging in DA HUB </div>
+              <div class="item-views">62 Viewing</div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="result result-online">
         <input type="radio" name="tab" id="online-tab">
         <div>
-          <div class="result-item">1</div>
-          <div class="result-item">2</div>
-          <div class="result-item">3</div>
-          <div class="result-item">4</div>
-          <div class="result-item">5</div>
+          <div class="result-item">
+            <div class="item-title">
+              <img class="item-logo" src="https://static-cdn.jtvnw.net/user-default-pictures/b83b1794-7df9-4878-916c-88c2ad2e4f9f-profile_image-300x300.jpg">
+              <div class="item-name">chiveyx</div>
+            </div>
+            <div class="item-info">
+              <div class="item-status online">
+                <span>online</span>
+              </div>
+              <div class="item-desc">Snatching bounties and hanging in DA HUB </div>
+              <div class="item-views">62 Viewing</div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="result result-offline">
         <input type="radio" name="tab" id="offline-tab">
         <div>
-          <div class="result-item">1</div>
-          <div class="result-item">2</div>
-          <div class="result-item">3</div>
-          <div class="result-item">4</div>
-          <div class="result-item">5</div>
+          <div class="result-item">
+            <div class="item-title">
+              <img class="item-logo" src="https://static-cdn.jtvnw.net/user-default-pictures/b83b1794-7df9-4878-916c-88c2ad2e4f9f-profile_image-300x300.jpg">
+              <div class="item-name">chiveyx</div>
+            </div>
+            <div class="item-info">
+              <div class="item-status offline">
+                <span>offline</span>
+              </div>
+              <div class="item-desc">Snatching bounties and hanging in DA HUB </div>
+              <div class="item-views">62 Viewing</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
