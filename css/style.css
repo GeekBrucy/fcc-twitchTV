@@ -4,11 +4,6 @@
   box-sizing: border-box;
   font-family: 'Press Start 2P', cursive, sans-serif;
 }
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 a {
   text-decoration: none;
   color: #aaa
@@ -30,49 +25,19 @@ body {
   font-size: .5rem;
   text-align: center
 }
-
 .pg-header h1 {
   margin-bottom: .5rem;
 }
 /***************** pg-header END *****************/
 
 /***************** pg-content START *****************/
-.pg-content {
-  width: 80%;
-  margin: 0 auto;
-  font-size: .5rem;
-  padding: .5rem .75rem;
-}
-/* .pg-content search-container START */
-.search-container {
-  text-align: center;
+/* .pg-content preload-result START */
+.preload-result {
   width: 10rem;
-  margin: 0 auto;
-  padding: 0 .8rem;
-  margin-bottom: .5rem;
-}
-.search-container .search-input {
-  margin-bottom: .25rem;
-}
-.search-input .search-input-text{
-  padding: .2rem .4rem;
-  width: 100%;
-}
-.search-submit {
-  padding: .2rem .3rem;
-  display: block;
-  width: 100%;
-}
-/* .pg-content search-container END */
-
-/* .pg-content search-result START */
-.search-result {
-  width: 10rem;
-  margin: 0 auto;
+  margin: .5rem auto;
   position: relative;
-
 }
-.search-result .result-filter {
+.preload-result .result-filter {
   position: absolute;
   right: .2rem;
   top: .2rem;
@@ -91,7 +56,7 @@ body {
   position: absolute;
   left: 0;
   top: 1rem;
-
+  width: 10rem;
 }
 .result > div, .result > input[type='radio'] {
   display: none;
@@ -103,29 +68,28 @@ body {
   display: flex;
   font-size: .35rem;
   background-color: #fff;
-  padding: .25rem;
+  padding: .3rem;
   margin-bottom: .5rem;
+  align-items: center;
 }
 .item-title {
-  flex: 1;
+  width: 4rem;
   text-align: center;
-  color: #f46036
+  color: #f46036;
 }
 .item-title .item-logo {
   border-radius: 50%;
   width: 2rem;
-  border: 2px solid #fff;
   margin-bottom: .35rem;
 }
 .item-info{
-  padding: .25rem;
+  flex: 3;
 }
-.item-info > div {
+.item-info  div {
   margin-bottom: .3rem;
 }
 .item-status {
   text-align: right;
-  padding: 0 .25rem;
   color: #fff
 }
 .item-status span {
@@ -138,12 +102,6 @@ body {
 .item-status.offline span {
   background-color: red;
 }
-/* .item-status.online {
-  color: green
-}
-.item-status.offline {
-  color: red
-} */
 .item-views {
   color: #f46036;
   text-align: right;
