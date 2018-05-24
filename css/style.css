@@ -31,7 +31,6 @@ body {
 /***************** pg-header END *****************/
 
 /***************** pg-content START *****************/
-/* .pg-content preload-result START */
 .preload-result {
   width: 10rem;
   margin: .5rem auto;
@@ -106,7 +105,4 @@ body {
   color: #f46036;
   text-align: right;
 }
-/* .pg-content search-result END */
-
-
 /***************** pg-content END *****************/
