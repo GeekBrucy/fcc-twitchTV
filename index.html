@@ -9,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <title>Document</title>
 </head>
-
 <body>
   <header class="pg-header">
     <h1>Free Code Camp</h1>
@@ -18,24 +17,23 @@
   <section class="pg-content">
     <div class="search-container">
       <div class="search-input">
-        <input type="text" class="search-input-text" placeholder="Enter Keywords..."><select class="search-input-select">
-          <option value="streams" selected>Streams</option>
-          <option value="channels">Channels</option>
-          <option value="users">Users</option>
-        </select>
+        <input type="text" class="search-input-text" placeholder="Enter Keywords...">
       </div>
       <button class="search-submit">Submit</button>
     </div>
     <div class="search-result">
       <div class="result-filter">
-        <label for="all-tab" class="active">All</label>
-        <label for="online-tab">Online</label>
-        <label for="offline-tab">Offline</label>
+        <label for="all-tab" class="tab-label active">All</label>
+        <label for="online-tab" 
+        class="tab-label ">Online</label>
+        <label for="offline-tab" 
+        class="tab-label ">Offline</label>
       </div>
+      <div class="search-result"></div>
       <div class="result result-all">
         <input type="radio" name="tab" id="all-tab" checked>
         <div>
-          <div class="result-item">
+          <a href="#" class="result-item">
             <div class="item-title">
               <img class="item-logo" src="https://static-cdn.jtvnw.net/user-default-pictures/b83b1794-7df9-4878-916c-88c2ad2e4f9f-profile_image-300x300.jpg">
               <div class="item-name">chiveyx</div>
@@ -47,7 +45,7 @@
               <div class="item-desc">Snatching bounties and hanging in DA HUB </div>
               <div class="item-views">62 Viewing</div>
             </div>
-          </div>
+          </a>
         </div>
         <div>
           <div class="result-item">
